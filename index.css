@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(250deg, rgba(128, 0, 128, 0.503), rgba(0, 0, 255, 0.432)), url(https://www.vyopta.com/wp-content/uploads/2020/03/iStock-1074916746-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box{
+    background-color: white;
+    width: 320px;
+    height: 470px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 25px;
+    font-weight: 900px;
+    text-align: center;
+    margin: 20px 0px;
+}
+label{
+    font-size: 15px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: solid 1px black;
+    
+}
+a{ 
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: right;
+    margin: 5px;
+    
+    
+}
+button{
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin: 30px 0px;
+    border-radius: 50px;
+    background: linear-gradient(250deg,rgba(255, 28, 255, 0.695), rgba(0, 229, 255, 0.864));
+    color: white;
+    font-weight: 600;
+    border: none;
+    
+}
+
+#icons{
+ text-align: center;
+ margin: 20px auto;
+ width: 50%;
+ 
+
+
+}
+#signup{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+#icons span{
+    display: inline-block;
+    padding: 5px 8px;
+    border-radius: 50%;
+    margin: 0px 4px;
+}
+#s1{
+    background-color: rgba(20, 20, 69, 0.93);
+}
+#s2{
+    background-color: rgb(185, 75, 35);
+}
+#s3{
+    background-color: blue;
+}
+#icons span{
+    color: white;
+    font-size: 16px;
+}
+p{
+    text-align: center;
+}
